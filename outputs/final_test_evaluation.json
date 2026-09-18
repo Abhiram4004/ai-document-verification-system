@@ -1,0 +1,71 @@
+{
+  "selected_model": "HistGradientBoosting (l2=10.0, min_leaf=20, threshold=0.25)",
+  "selected_test_metrics_default_0_5": {
+    "accuracy": 0.7018,
+    "precision_forged": 0.0833,
+    "recall_forged": 0.0857,
+    "f1_forged": 0.0845,
+    "roc_auc": 0.4306,
+    "confusion_matrix": [
+      [
+        150,
+        33
+      ],
+      [
+        32,
+        3
+      ]
+    ]
+  },
+  "selected_test_metrics_optimized_0_25": {
+    "accuracy": 0.4358,
+    "precision_forged": 0.1333,
+    "recall_forged": 0.4571,
+    "f1_forged": 0.2065,
+    "roc_auc": 0.4306,
+    "confusion_matrix": [
+      [
+        79,
+        104
+      ],
+      [
+        19,
+        16
+      ]
+    ]
+  },
+  "visual_model_test_metrics_default_0_5": {
+    "accuracy": 0.7202,
+    "precision_forged": 0.1389,
+    "recall_forged": 0.1429,
+    "f1_forged": 0.1408,
+    "roc_auc": 0.4971,
+    "confusion_matrix": [
+      [
+        152,
+        31
+      ],
+      [
+        30,
+        5
+      ]
+    ]
+  },
+  "visual_model_test_metrics_optimized": {
+    "accuracy": 0.4587,
+    "precision_forged": 0.157,
+    "recall_forged": 0.5429,
+    "f1_forged": 0.2436,
+    "roc_auc": 0.4971,
+    "confusion_matrix": [
+      [
+        81,
+        102
+      ],
+      [
+        16,
+        19
+      ]
+    ]
+  }
+}

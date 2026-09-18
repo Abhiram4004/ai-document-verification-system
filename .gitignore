@@ -1,0 +1,71 @@
+# Environment configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and test coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Logging
+*.log
+
+# Large datasets & raw data (do not push to GitHub)
+archive/
+archive/findit2/
+data/raw/
+data/cache/
+data/7z_full/
+data/*.zip
+data/*.whl
+data/*.exe
+data/*.7z
+data/train/
+data/val/
+data/test/
+*.csv
+
+# Model binary checkpoints (regenerated via training scripts)
+models/*.joblib
+models/*.pkl
+models/*.pt
+!models/README.md
+!models/metadata.json
+!models/visual_metadata.json
+
+# Outputs & Generated Artifacts (keep reproduction reports only)
+outputs/*
+!outputs/README.md
+!outputs/final_test_evaluation.json
+!outputs/feature_diagnosis_report.json
+!outputs/classical_experiments_report.json
+!outputs/visual_model_val_report.json
+!outputs/metrics.json
+!outputs/confusion_matrix.png
+!outputs/roc_curve.png
+!outputs/feature_importance.png
+!outputs/classification_report.txt
+
+# Temporary / Scratch files
+temp/
+tmp/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

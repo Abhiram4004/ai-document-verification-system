@@ -1,0 +1,109 @@
+{
+  "selected_model": "LogisticRegression",
+  "train_samples": 577,
+  "val_samples": 192,
+  "test_samples": 218,
+  "validation_comparison": {
+    "LogisticRegression": {
+      "accuracy": 0.4792,
+      "precision_forged": 0.1616,
+      "recall_forged": 0.4848,
+      "f1_forged": 0.2424,
+      "roc_auc": 0.5022,
+      "precision_macro": 0.4894,
+      "recall_macro": 0.4814,
+      "f1_macro": 0.4228,
+      "confusion_matrix": [
+        [
+          76,
+          83
+        ],
+        [
+          17,
+          16
+        ]
+      ]
+    },
+    "RandomForest": {
+      "accuracy": 0.7604,
+      "precision_forged": 0.2174,
+      "recall_forged": 0.1515,
+      "f1_forged": 0.1786,
+      "roc_auc": 0.5382,
+      "precision_macro": 0.5259,
+      "recall_macro": 0.5192,
+      "f1_macro": 0.5192,
+      "confusion_matrix": [
+        [
+          141,
+          18
+        ],
+        [
+          28,
+          5
+        ]
+      ]
+    },
+    "SVM_RBF": {
+      "accuracy": 0.3906,
+      "precision_forged": 0.1316,
+      "recall_forged": 0.4545,
+      "f1_forged": 0.2041,
+      "roc_auc": 0.5336,
+      "precision_macro": 0.4504,
+      "recall_macro": 0.416,
+      "f1_macro": 0.3552,
+      "confusion_matrix": [
+        [
+          60,
+          99
+        ],
+        [
+          18,
+          15
+        ]
+      ]
+    },
+    "HistGradientBoosting": {
+      "accuracy": 0.7552,
+      "precision_forged": 0.0,
+      "recall_forged": 0.0,
+      "f1_forged": 0.0,
+      "roc_auc": 0.5594,
+      "precision_macro": 0.4073,
+      "recall_macro": 0.456,
+      "f1_macro": 0.4303,
+      "confusion_matrix": [
+        [
+          145,
+          14
+        ],
+        [
+          33,
+          0
+        ]
+      ]
+    }
+  },
+  "test_metrics": {
+    "accuracy": 0.4541,
+    "precision_forged": 0.1182,
+    "recall_forged": 0.3714,
+    "f1_forged": 0.1793,
+    "roc_auc": 0.4442,
+    "precision_macro": 0.4572,
+    "recall_macro": 0.4207,
+    "f1_macro": 0.3852,
+    "confusion_matrix": [
+      [
+        86,
+        97
+      ],
+      [
+        22,
+        13
+      ]
+    ]
+  },
+  "timestamp": "2026-09-17T18:39:57.644910+00:00"
+}

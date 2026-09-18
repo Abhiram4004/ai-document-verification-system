@@ -1,0 +1,16 @@
+Model: LogisticRegression
+Timestamp: 2026-09-17T18:39:57.644910+00:00
+
+              precision    recall  f1-score   support
+
+ Genuine (0)     0.7963    0.4699    0.5911       183
+  Forged (1)     0.1182    0.3714    0.1793        35
+
+    accuracy                         0.4541       218
+   macro avg     0.4572    0.4207    0.3852       218
+weighted avg     0.6874    0.4541    0.5250       218
+
+
+Confusion Matrix:
+TN: 86, FP: 97
+FN: 22, TP: 13

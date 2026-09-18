@@ -1,0 +1,1640 @@
+[
+  {
+    "model_name": "HistGradientBoosting (l2=10.0, min_leaf=20)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.7344,
+      "precision_forged": 0.1538,
+      "recall_forged": 0.1212,
+      "f1_forged": 0.1356,
+      "roc_auc": 0.5548,
+      "confusion_matrix": [
+        [
+          137,
+          22
+        ],
+        [
+          29,
+          4
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.25,
+      "accuracy": 0.5781,
+      "precision_forged": 0.2447,
+      "recall_forged": 0.697,
+      "f1_forged": 0.3622,
+      "roc_auc": 0.5548,
+      "confusion_matrix": [
+        [
+          88,
+          71
+        ],
+        [
+          10,
+          23
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "SVM RBF (C=0.5, Balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.8281,
+      "precision_forged": 0.0,
+      "recall_forged": 0.0,
+      "f1_forged": 0.0,
+      "roc_auc": 0.5407,
+      "confusion_matrix": [
+        [
+          159,
+          0
+        ],
+        [
+          33,
+          0
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.16,
+      "accuracy": 0.6094,
+      "precision_forged": 0.2375,
+      "recall_forged": 0.5758,
+      "f1_forged": 0.3363,
+      "roc_auc": 0.5407,
+      "confusion_matrix": [
+        [
+          98,
+          61
+        ],
+        [
+          14,
+          19
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "HistGradientBoosting (l2=5.0, min_leaf=40)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.7135,
+      "precision_forged": 0.1765,
+      "recall_forged": 0.1818,
+      "f1_forged": 0.1791,
+      "roc_auc": 0.5826,
+      "confusion_matrix": [
+        [
+          131,
+          28
+        ],
+        [
+          27,
+          6
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.16,
+      "accuracy": 0.4219,
+      "precision_forged": 0.209,
+      "recall_forged": 0.8485,
+      "f1_forged": 0.3353,
+      "roc_auc": 0.5826,
+      "confusion_matrix": [
+        [
+          53,
+          106
+        ],
+        [
+          5,
+          28
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "HistGradientBoosting (l2=10.0, min_leaf=40)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.6979,
+      "precision_forged": 0.1795,
+      "recall_forged": 0.2121,
+      "f1_forged": 0.1944,
+      "roc_auc": 0.5325,
+      "confusion_matrix": [
+        [
+          127,
+          32
+        ],
+        [
+          26,
+          7
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.26,
+      "accuracy": 0.4792,
+      "precision_forged": 0.2137,
+      "recall_forged": 0.7576,
+      "f1_forged": 0.3333,
+      "roc_auc": 0.5325,
+      "confusion_matrix": [
+        [
+          67,
+          92
+        ],
+        [
+          8,
+          25
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "SVM RBF (C=5.0, Balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.8281,
+      "precision_forged": 0.0,
+      "recall_forged": 0.0,
+      "f1_forged": 0.0,
+      "roc_auc": 0.5153,
+      "confusion_matrix": [
+        [
+          159,
+          0
+        ],
+        [
+          33,
+          0
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.15,
+      "accuracy": 0.5208,
+      "precision_forged": 0.219,
+      "recall_forged": 0.697,
+      "f1_forged": 0.3333,
+      "roc_auc": 0.5153,
+      "confusion_matrix": [
+        [
+          77,
+          82
+        ],
+        [
+          10,
+          23
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "HistGradientBoosting (l2=5.0, min_leaf=10)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.7552,
+      "precision_forged": 0.0625,
+      "recall_forged": 0.0303,
+      "f1_forged": 0.0408,
+      "roc_auc": 0.5289,
+      "confusion_matrix": [
+        [
+          144,
+          15
+        ],
+        [
+          32,
+          1
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.1,
+      "accuracy": 0.4219,
+      "precision_forged": 0.2045,
+      "recall_forged": 0.8182,
+      "f1_forged": 0.3273,
+      "roc_auc": 0.5289,
+      "confusion_matrix": [
+        [
+          54,
+          105
+        ],
+        [
+          6,
+          27
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "HistGradientBoosting (l2=1.0, min_leaf=20)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.7396,
+      "precision_forged": 0.0952,
+      "recall_forged": 0.0606,
+      "f1_forged": 0.0741,
+      "roc_auc": 0.5468,
+      "confusion_matrix": [
+        [
+          140,
+          19
+        ],
+        [
+          31,
+          2
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.12,
+      "accuracy": 0.6042,
+      "precision_forged": 0.2278,
+      "recall_forged": 0.5455,
+      "f1_forged": 0.3214,
+      "roc_auc": 0.5468,
+      "confusion_matrix": [
+        [
+          98,
+          61
+        ],
+        [
+          15,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "HistGradientBoosting (l2=0.0, min_leaf=40)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.724,
+      "precision_forged": 0.1154,
+      "recall_forged": 0.0909,
+      "f1_forged": 0.1017,
+      "roc_auc": 0.5426,
+      "confusion_matrix": [
+        [
+          136,
+          23
+        ],
+        [
+          30,
+          3
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.15,
+      "accuracy": 0.5365,
+      "precision_forged": 0.2143,
+      "recall_forged": 0.6364,
+      "f1_forged": 0.3206,
+      "roc_auc": 0.5426,
+      "confusion_matrix": [
+        [
+          82,
+          77
+        ],
+        [
+          12,
+          21
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "HistGradientBoosting (l2=0.0, min_leaf=20)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.7552,
+      "precision_forged": 0.0,
+      "recall_forged": 0.0,
+      "f1_forged": 0.0,
+      "roc_auc": 0.5594,
+      "confusion_matrix": [
+        [
+          145,
+          14
+        ],
+        [
+          33,
+          0
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.05,
+      "accuracy": 0.5573,
+      "precision_forged": 0.2174,
+      "recall_forged": 0.6061,
+      "f1_forged": 0.32,
+      "roc_auc": 0.5594,
+      "confusion_matrix": [
+        [
+          87,
+          72
+        ],
+        [
+          13,
+          20
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "HistGradientBoosting (l2=1.0, min_leaf=40)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.7448,
+      "precision_forged": 0.1923,
+      "recall_forged": 0.1515,
+      "f1_forged": 0.1695,
+      "roc_auc": 0.5464,
+      "confusion_matrix": [
+        [
+          138,
+          21
+        ],
+        [
+          28,
+          5
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.21,
+      "accuracy": 0.5573,
+      "precision_forged": 0.2174,
+      "recall_forged": 0.6061,
+      "f1_forged": 0.32,
+      "roc_auc": 0.5464,
+      "confusion_matrix": [
+        [
+          87,
+          72
+        ],
+        [
+          13,
+          20
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "SVM RBF (C=1.0, Balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.8281,
+      "precision_forged": 0.0,
+      "recall_forged": 0.0,
+      "f1_forged": 0.0,
+      "roc_auc": 0.5336,
+      "confusion_matrix": [
+        [
+          159,
+          0
+        ],
+        [
+          33,
+          0
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.16,
+      "accuracy": 0.599,
+      "precision_forged": 0.225,
+      "recall_forged": 0.5455,
+      "f1_forged": 0.3186,
+      "roc_auc": 0.5336,
+      "confusion_matrix": [
+        [
+          97,
+          62
+        ],
+        [
+          15,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "SVM RBF (C=0.1, Balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.8281,
+      "precision_forged": 0.0,
+      "recall_forged": 0.0,
+      "f1_forged": 0.0,
+      "roc_auc": 0.5317,
+      "confusion_matrix": [
+        [
+          159,
+          0
+        ],
+        [
+          33,
+          0
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.14,
+      "accuracy": 0.4844,
+      "precision_forged": 0.2054,
+      "recall_forged": 0.697,
+      "f1_forged": 0.3172,
+      "roc_auc": 0.5317,
+      "confusion_matrix": [
+        [
+          70,
+          89
+        ],
+        [
+          10,
+          23
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "HistGradientBoosting (l2=5.0, min_leaf=20)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.7396,
+      "precision_forged": 0.0952,
+      "recall_forged": 0.0606,
+      "f1_forged": 0.0741,
+      "roc_auc": 0.5361,
+      "confusion_matrix": [
+        [
+          140,
+          19
+        ],
+        [
+          31,
+          2
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.12,
+      "accuracy": 0.4115,
+      "precision_forged": 0.197,
+      "recall_forged": 0.7879,
+      "f1_forged": 0.3152,
+      "roc_auc": 0.5361,
+      "confusion_matrix": [
+        [
+          53,
+          106
+        ],
+        [
+          7,
+          26
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "LogisticRegression (L1 Lasso, C=0.5, Balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.4531,
+      "precision_forged": 0.1604,
+      "recall_forged": 0.5152,
+      "f1_forged": 0.2446,
+      "roc_auc": 0.499,
+      "confusion_matrix": [
+        [
+          70,
+          89
+        ],
+        [
+          16,
+          17
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.31,
+      "accuracy": 0.2188,
+      "precision_forged": 0.1803,
+      "recall_forged": 1.0,
+      "f1_forged": 0.3056,
+      "roc_auc": 0.499,
+      "confusion_matrix": [
+        [
+          9,
+          150
+        ],
+        [
+          0,
+          33
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "SVM Linear (C=0.1, Balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.8281,
+      "precision_forged": 0.0,
+      "recall_forged": 0.0,
+      "f1_forged": 0.0,
+      "roc_auc": 0.5354,
+      "confusion_matrix": [
+        [
+          159,
+          0
+        ],
+        [
+          33,
+          0
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.16,
+      "accuracy": 0.2396,
+      "precision_forged": 0.1808,
+      "recall_forged": 0.9697,
+      "f1_forged": 0.3048,
+      "roc_auc": 0.5354,
+      "confusion_matrix": [
+        [
+          14,
+          145
+        ],
+        [
+          1,
+          32
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "RandomForest (depth=8, cw=balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.7083,
+      "precision_forged": 0.2051,
+      "recall_forged": 0.2424,
+      "f1_forged": 0.2222,
+      "roc_auc": 0.4772,
+      "confusion_matrix": [
+        [
+          128,
+          31
+        ],
+        [
+          25,
+          8
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.22,
+      "accuracy": 0.2396,
+      "precision_forged": 0.1808,
+      "recall_forged": 0.9697,
+      "f1_forged": 0.3048,
+      "roc_auc": 0.4772,
+      "confusion_matrix": [
+        [
+          14,
+          145
+        ],
+        [
+          1,
+          32
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "RandomForest (depth=6, cw=balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.651,
+      "precision_forged": 0.1852,
+      "recall_forged": 0.303,
+      "f1_forged": 0.2299,
+      "roc_auc": 0.4484,
+      "confusion_matrix": [
+        [
+          115,
+          44
+        ],
+        [
+          23,
+          10
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.26,
+      "accuracy": 0.2396,
+      "precision_forged": 0.1808,
+      "recall_forged": 0.9697,
+      "f1_forged": 0.3048,
+      "roc_auc": 0.4484,
+      "confusion_matrix": [
+        [
+          14,
+          145
+        ],
+        [
+          1,
+          32
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "HistGradientBoosting (l2=10.0, min_leaf=10)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.7552,
+      "precision_forged": 0.0,
+      "recall_forged": 0.0,
+      "f1_forged": 0.0,
+      "roc_auc": 0.5041,
+      "confusion_matrix": [
+        [
+          145,
+          14
+        ],
+        [
+          33,
+          0
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.11,
+      "accuracy": 0.3333,
+      "precision_forged": 0.1854,
+      "recall_forged": 0.8485,
+      "f1_forged": 0.3043,
+      "roc_auc": 0.5041,
+      "confusion_matrix": [
+        [
+          36,
+          123
+        ],
+        [
+          5,
+          28
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "RandomForest (depth=4, cw=balanced_subsample)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.6719,
+      "precision_forged": 0.0833,
+      "recall_forged": 0.0909,
+      "f1_forged": 0.087,
+      "roc_auc": 0.4136,
+      "confusion_matrix": [
+        [
+          126,
+          33
+        ],
+        [
+          30,
+          3
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.26,
+      "accuracy": 0.2135,
+      "precision_forged": 0.1793,
+      "recall_forged": 1.0,
+      "f1_forged": 0.3041,
+      "roc_auc": 0.4136,
+      "confusion_matrix": [
+        [
+          8,
+          151
+        ],
+        [
+          0,
+          33
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "AdaBoostClassifier (n=50, lr=0.5)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.8281,
+      "precision_forged": 0.0,
+      "recall_forged": 0.0,
+      "f1_forged": 0.0,
+      "roc_auc": 0.5007,
+      "confusion_matrix": [
+        [
+          159,
+          0
+        ],
+        [
+          33,
+          0
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.23,
+      "accuracy": 0.2604,
+      "precision_forged": 0.1813,
+      "recall_forged": 0.9394,
+      "f1_forged": 0.3039,
+      "roc_auc": 0.5007,
+      "confusion_matrix": [
+        [
+          19,
+          140
+        ],
+        [
+          2,
+          31
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "LogisticRegression (L1 Lasso, C=1.0, Balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.474,
+      "precision_forged": 0.1667,
+      "recall_forged": 0.5152,
+      "f1_forged": 0.2519,
+      "roc_auc": 0.4982,
+      "confusion_matrix": [
+        [
+          74,
+          85
+        ],
+        [
+          16,
+          17
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.28,
+      "accuracy": 0.2083,
+      "precision_forged": 0.1784,
+      "recall_forged": 1.0,
+      "f1_forged": 0.3028,
+      "roc_auc": 0.4982,
+      "confusion_matrix": [
+        [
+          7,
+          152
+        ],
+        [
+          0,
+          33
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "LogisticRegression + PCA(n=15)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.4688,
+      "precision_forged": 0.1515,
+      "recall_forged": 0.4545,
+      "f1_forged": 0.2273,
+      "roc_auc": 0.489,
+      "confusion_matrix": [
+        [
+          75,
+          84
+        ],
+        [
+          18,
+          15
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.29,
+      "accuracy": 0.2083,
+      "precision_forged": 0.1784,
+      "recall_forged": 1.0,
+      "f1_forged": 0.3028,
+      "roc_auc": 0.489,
+      "confusion_matrix": [
+        [
+          7,
+          152
+        ],
+        [
+          0,
+          33
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "RandomForest (depth=None, cw=balanced_subsample)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.7969,
+      "precision_forged": 0.0,
+      "recall_forged": 0.0,
+      "f1_forged": 0.0,
+      "roc_auc": 0.522,
+      "confusion_matrix": [
+        [
+          153,
+          6
+        ],
+        [
+          33,
+          0
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.1,
+      "accuracy": 0.2292,
+      "precision_forged": 0.1788,
+      "recall_forged": 0.9697,
+      "f1_forged": 0.3019,
+      "roc_auc": 0.522,
+      "confusion_matrix": [
+        [
+          12,
+          147
+        ],
+        [
+          1,
+          32
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "RandomForest (depth=None, cw=balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.7448,
+      "precision_forged": 0.1667,
+      "recall_forged": 0.1212,
+      "f1_forged": 0.1404,
+      "roc_auc": 0.5119,
+      "confusion_matrix": [
+        [
+          139,
+          20
+        ],
+        [
+          29,
+          4
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.16,
+      "accuracy": 0.2292,
+      "precision_forged": 0.1788,
+      "recall_forged": 0.9697,
+      "f1_forged": 0.3019,
+      "roc_auc": 0.5119,
+      "confusion_matrix": [
+        [
+          12,
+          147
+        ],
+        [
+          1,
+          32
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "LogisticRegression + SelectKBest(k=10)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.5,
+      "precision_forged": 0.1818,
+      "recall_forged": 0.5455,
+      "f1_forged": 0.2727,
+      "roc_auc": 0.4965,
+      "confusion_matrix": [
+        [
+          78,
+          81
+        ],
+        [
+          15,
+          18
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.45,
+      "accuracy": 0.349,
+      "precision_forged": 0.1849,
+      "recall_forged": 0.8182,
+      "f1_forged": 0.3017,
+      "roc_auc": 0.4965,
+      "confusion_matrix": [
+        [
+          40,
+          119
+        ],
+        [
+          6,
+          27
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "LogisticRegression (L1 Lasso, C=0.1, Balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.4271,
+      "precision_forged": 0.1652,
+      "recall_forged": 0.5758,
+      "f1_forged": 0.2568,
+      "roc_auc": 0.4732,
+      "confusion_matrix": [
+        [
+          63,
+          96
+        ],
+        [
+          14,
+          19
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.4,
+      "accuracy": 0.2031,
+      "precision_forged": 0.1774,
+      "recall_forged": 1.0,
+      "f1_forged": 0.3014,
+      "roc_auc": 0.4732,
+      "confusion_matrix": [
+        [
+          6,
+          153
+        ],
+        [
+          0,
+          33
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "LogisticRegression (L1 Lasso, C=0.05, Balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.4688,
+      "precision_forged": 0.1947,
+      "recall_forged": 0.6667,
+      "f1_forged": 0.3014,
+      "roc_auc": 0.5245,
+      "confusion_matrix": [
+        [
+          68,
+          91
+        ],
+        [
+          11,
+          22
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.5,
+      "accuracy": 0.4688,
+      "precision_forged": 0.1947,
+      "recall_forged": 0.6667,
+      "f1_forged": 0.3014,
+      "roc_auc": 0.5245,
+      "confusion_matrix": [
+        [
+          68,
+          91
+        ],
+        [
+          11,
+          22
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "RandomForest (depth=4, cw=balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.5,
+      "precision_forged": 0.1205,
+      "recall_forged": 0.303,
+      "f1_forged": 0.1724,
+      "roc_auc": 0.4197,
+      "confusion_matrix": [
+        [
+          86,
+          73
+        ],
+        [
+          23,
+          10
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.31,
+      "accuracy": 0.224,
+      "precision_forged": 0.1778,
+      "recall_forged": 0.9697,
+      "f1_forged": 0.3005,
+      "roc_auc": 0.4197,
+      "confusion_matrix": [
+        [
+          11,
+          148
+        ],
+        [
+          1,
+          32
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "LogisticRegression + PCA(n=10)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.4427,
+      "precision_forged": 0.1509,
+      "recall_forged": 0.4848,
+      "f1_forged": 0.2302,
+      "roc_auc": 0.4397,
+      "confusion_matrix": [
+        [
+          69,
+          90
+        ],
+        [
+          17,
+          16
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.42,
+      "accuracy": 0.2969,
+      "precision_forged": 0.1812,
+      "recall_forged": 0.8788,
+      "f1_forged": 0.3005,
+      "roc_auc": 0.4397,
+      "confusion_matrix": [
+        [
+          28,
+          131
+        ],
+        [
+          4,
+          29
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "LogisticRegression (L2, C=1.0, Balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.4792,
+      "precision_forged": 0.1616,
+      "recall_forged": 0.4848,
+      "f1_forged": 0.2424,
+      "roc_auc": 0.5022,
+      "confusion_matrix": [
+        [
+          76,
+          83
+        ],
+        [
+          17,
+          16
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.23,
+      "accuracy": 0.1979,
+      "precision_forged": 0.1765,
+      "recall_forged": 1.0,
+      "f1_forged": 0.3,
+      "roc_auc": 0.5022,
+      "confusion_matrix": [
+        [
+          5,
+          154
+        ],
+        [
+          0,
+          33
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "HistGradientBoosting (l2=1.0, min_leaf=10)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.7656,
+      "precision_forged": 0.0714,
+      "recall_forged": 0.0303,
+      "f1_forged": 0.0426,
+      "roc_auc": 0.5184,
+      "confusion_matrix": [
+        [
+          146,
+          13
+        ],
+        [
+          32,
+          1
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.05,
+      "accuracy": 0.4844,
+      "precision_forged": 0.1944,
+      "recall_forged": 0.6364,
+      "f1_forged": 0.2979,
+      "roc_auc": 0.5184,
+      "confusion_matrix": [
+        [
+          72,
+          87
+        ],
+        [
+          12,
+          21
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "RandomForest (depth=6, cw=balanced_subsample)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.7708,
+      "precision_forged": 0.0769,
+      "recall_forged": 0.0303,
+      "f1_forged": 0.0435,
+      "roc_auc": 0.414,
+      "confusion_matrix": [
+        [
+          147,
+          12
+        ],
+        [
+          32,
+          1
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.2,
+      "accuracy": 0.2344,
+      "precision_forged": 0.1761,
+      "recall_forged": 0.9394,
+      "f1_forged": 0.2967,
+      "roc_auc": 0.414,
+      "confusion_matrix": [
+        [
+          14,
+          145
+        ],
+        [
+          2,
+          31
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "RandomForest (depth=8, cw=balanced_subsample)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.7865,
+      "precision_forged": 0.1,
+      "recall_forged": 0.0303,
+      "f1_forged": 0.0465,
+      "roc_auc": 0.4559,
+      "confusion_matrix": [
+        [
+          150,
+          9
+        ],
+        [
+          32,
+          1
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.21,
+      "accuracy": 0.3073,
+      "precision_forged": 0.1795,
+      "recall_forged": 0.8485,
+      "f1_forged": 0.2963,
+      "roc_auc": 0.4559,
+      "confusion_matrix": [
+        [
+          31,
+          128
+        ],
+        [
+          5,
+          28
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "LogisticRegression (L1 Lasso, C=2.0, Balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.4844,
+      "precision_forged": 0.1633,
+      "recall_forged": 0.4848,
+      "f1_forged": 0.2443,
+      "roc_auc": 0.5066,
+      "confusion_matrix": [
+        [
+          77,
+          82
+        ],
+        [
+          17,
+          16
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.29,
+      "accuracy": 0.2292,
+      "precision_forged": 0.1751,
+      "recall_forged": 0.9394,
+      "f1_forged": 0.2952,
+      "roc_auc": 0.5066,
+      "confusion_matrix": [
+        [
+          13,
+          146
+        ],
+        [
+          2,
+          31
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "SVM Linear (C=0.5, Balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.8281,
+      "precision_forged": 0.0,
+      "recall_forged": 0.0,
+      "f1_forged": 0.0,
+      "roc_auc": 0.501,
+      "confusion_matrix": [
+        [
+          159,
+          0
+        ],
+        [
+          33,
+          0
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.15,
+      "accuracy": 0.1771,
+      "precision_forged": 0.1728,
+      "recall_forged": 1.0,
+      "f1_forged": 0.2946,
+      "roc_auc": 0.501,
+      "confusion_matrix": [
+        [
+          1,
+          158
+        ],
+        [
+          0,
+          33
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "SVM Linear (C=1.0, Balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.8281,
+      "precision_forged": 0.0,
+      "recall_forged": 0.0,
+      "f1_forged": 0.0,
+      "roc_auc": 0.4906,
+      "confusion_matrix": [
+        [
+          159,
+          0
+        ],
+        [
+          33,
+          0
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.15,
+      "accuracy": 0.1771,
+      "precision_forged": 0.1728,
+      "recall_forged": 1.0,
+      "f1_forged": 0.2946,
+      "roc_auc": 0.4906,
+      "confusion_matrix": [
+        [
+          1,
+          158
+        ],
+        [
+          0,
+          33
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "LogisticRegression + PCA(n=5)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.4219,
+      "precision_forged": 0.1455,
+      "recall_forged": 0.4848,
+      "f1_forged": 0.2238,
+      "roc_auc": 0.4206,
+      "confusion_matrix": [
+        [
+          65,
+          94
+        ],
+        [
+          17,
+          16
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.31,
+      "accuracy": 0.1771,
+      "precision_forged": 0.1728,
+      "recall_forged": 1.0,
+      "f1_forged": 0.2946,
+      "roc_auc": 0.4206,
+      "confusion_matrix": [
+        [
+          1,
+          158
+        ],
+        [
+          0,
+          33
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "SVM Linear (C=5.0, Balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.8281,
+      "precision_forged": 0.0,
+      "recall_forged": 0.0,
+      "f1_forged": 0.0,
+      "roc_auc": 0.4909,
+      "confusion_matrix": [
+        [
+          159,
+          0
+        ],
+        [
+          33,
+          0
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.05,
+      "accuracy": 0.1719,
+      "precision_forged": 0.1719,
+      "recall_forged": 1.0,
+      "f1_forged": 0.2933,
+      "roc_auc": 0.4909,
+      "confusion_matrix": [
+        [
+          0,
+          159
+        ],
+        [
+          0,
+          33
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "ExtraTrees (depth=8, cw=balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.625,
+      "precision_forged": 0.1695,
+      "recall_forged": 0.303,
+      "f1_forged": 0.2174,
+      "roc_auc": 0.4462,
+      "confusion_matrix": [
+        [
+          110,
+          49
+        ],
+        [
+          23,
+          10
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.05,
+      "accuracy": 0.1719,
+      "precision_forged": 0.1719,
+      "recall_forged": 1.0,
+      "f1_forged": 0.2933,
+      "roc_auc": 0.4462,
+      "confusion_matrix": [
+        [
+          0,
+          159
+        ],
+        [
+          0,
+          33
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "ExtraTrees (depth=4, cw=balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.4688,
+      "precision_forged": 0.1515,
+      "recall_forged": 0.4545,
+      "f1_forged": 0.2273,
+      "roc_auc": 0.4397,
+      "confusion_matrix": [
+        [
+          75,
+          84
+        ],
+        [
+          18,
+          15
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.05,
+      "accuracy": 0.1719,
+      "precision_forged": 0.1719,
+      "recall_forged": 1.0,
+      "f1_forged": 0.2933,
+      "roc_auc": 0.4397,
+      "confusion_matrix": [
+        [
+          0,
+          159
+        ],
+        [
+          0,
+          33
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "ExtraTrees (depth=6, cw=balanced)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.4896,
+      "precision_forged": 0.1264,
+      "recall_forged": 0.3333,
+      "f1_forged": 0.1833,
+      "roc_auc": 0.4359,
+      "confusion_matrix": [
+        [
+          83,
+          76
+        ],
+        [
+          22,
+          11
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.05,
+      "accuracy": 0.1719,
+      "precision_forged": 0.1719,
+      "recall_forged": 1.0,
+      "f1_forged": 0.2933,
+      "roc_auc": 0.4359,
+      "confusion_matrix": [
+        [
+          0,
+          159
+        ],
+        [
+          0,
+          33
+        ]
+      ]
+    }
+  },
+  {
+    "model_name": "HistGradientBoosting (l2=0.0, min_leaf=10)",
+    "default": {
+      "threshold": 0.5,
+      "accuracy": 0.776,
+      "precision_forged": 0.0833,
+      "recall_forged": 0.0303,
+      "f1_forged": 0.0444,
+      "roc_auc": 0.5178,
+      "confusion_matrix": [
+        [
+          148,
+          11
+        ],
+        [
+          32,
+          1
+        ]
+      ]
+    },
+    "optimized": {
+      "threshold": 0.13,
+      "accuracy": 0.7031,
+      "precision_forged": 0.1667,
+      "recall_forged": 0.1818,
+      "f1_forged": 0.1739,
+      "roc_auc": 0.5178,
+      "confusion_matrix": [
+        [
+          129,
+          30
+        ],
+        [
+          27,
+          6
+        ]
+      ]
+    }
+  }
+]

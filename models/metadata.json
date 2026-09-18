@@ -1,0 +1,119 @@
+{
+  "model_name": "HistGradientBoosting (l2=10.0, min_leaf=20)",
+  "optimal_threshold": 0.25,
+  "timestamp": "2026-09-17T19:15:00.000000+00:00",
+  "num_features": 37,
+  "feature_names": [
+    "geom_aspect_ratio",
+    "geom_log_area",
+    "geom_norm_width",
+    "geom_norm_height",
+    "gray_mean",
+    "gray_std",
+    "gray_median",
+    "gray_p10",
+    "gray_p90",
+    "gray_dynamic_range",
+    "gray_skewness",
+    "laplacian_var",
+    "patch_sharpness_std",
+    "patch_sharpness_ratio",
+    "canny_edge_density",
+    "sobel_h_mean",
+    "sobel_v_mean",
+    "sobel_grad_energy",
+    "color_red_mean",
+    "color_green_mean",
+    "color_blue_mean",
+    "color_red_std",
+    "color_green_std",
+    "color_blue_std",
+    "color_imbalance",
+    "color_sat_mean",
+    "color_sat_std",
+    "ocr_char_count",
+    "ocr_word_count",
+    "ocr_line_count",
+    "ocr_digit_count",
+    "ocr_digit_ratio",
+    "ocr_avg_word_length",
+    "ocr_uppercase_ratio",
+    "ocr_mean_confidence",
+    "ocr_low_conf_ratio",
+    "ocr_char_density"
+  ],
+  "validation_metrics": {
+    "threshold": 0.25,
+    "accuracy": 0.4844,
+    "precision_forged": 0.2447,
+    "recall_forged": 0.697,
+    "f1_forged": 0.3622,
+    "roc_auc": 0.5548
+  },
+  "test_metrics": {
+    "threshold": 0.25,
+    "accuracy": 0.4358,
+    "precision_forged": 0.1333,
+    "recall_forged": 0.4571,
+    "f1_forged": 0.2065,
+    "roc_auc": 0.4306,
+    "confusion_matrix": [
+      [79, 104],
+      [19, 16]
+    ]
+  },
+  "baseline_metrics": {
+    "model_name": "LogisticRegression (Baseline)",
+    "threshold": 0.5,
+    "val_accuracy": 0.4792,
+    "val_forged_f1": 0.2424,
+    "val_forged_recall": 0.4848,
+    "val_roc_auc": 0.5022,
+    "test_accuracy": 0.4541,
+    "test_precision_forged": 0.1182,
+    "test_recall_forged": 0.3714,
+    "test_f1_forged": 0.1793,
+    "test_roc_auc": 0.4442,
+    "confusion_matrix": [
+      [86, 97],
+      [22, 13]
+    ]
+  },
+  "metrics": {
+    "selected_model": "HistGradientBoosting (l2=10.0, min_leaf=20)",
+    "train_samples": 577,
+    "val_samples": 192,
+    "test_samples": 218,
+    "optimal_threshold": 0.25,
+    "validation_metrics": {
+      "accuracy": 0.4844,
+      "precision_forged": 0.2447,
+      "recall_forged": 0.697,
+      "f1_forged": 0.3622,
+      "roc_auc": 0.5548
+    },
+    "test_metrics": {
+      "accuracy": 0.4358,
+      "precision_forged": 0.1333,
+      "recall_forged": 0.4571,
+      "f1_forged": 0.2065,
+      "roc_auc": 0.4306,
+      "confusion_matrix": [
+        [79, 104],
+        [19, 16]
+      ]
+    },
+    "baseline_test_metrics": {
+      "accuracy": 0.4541,
+      "precision_forged": 0.1182,
+      "recall_forged": 0.3714,
+      "f1_forged": 0.1793,
+      "roc_auc": 0.4442,
+      "confusion_matrix": [
+        [86, 97],
+        [22, 13]
+      ]
+    }
+  },
+  "probability_notice": "Model probability represents statistical estimation and is not a legal or certified guarantee of authenticity."
+}
