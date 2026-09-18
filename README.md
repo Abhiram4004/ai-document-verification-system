@@ -1,14 +1,17 @@
 # AI Document Verification System
 
-> An AI-powered system for detecting potential document forgery using OCR, machine learning, and deep learning.
+# AI-Driven Document Verification System
 
-## 🚀 Live Demo
+An end-to-end AI system for detecting potential document forgery using OCR, classical machine learning, and deep learning.
 
-[**Try the Live Demo →**](YOUR_STREAMLIT_URL)
+### 🔗 Project Links
 
-## 📂 GitHub Repository
+[![Live Demo](https://img.shields.io/badge/Live-Demo-FF4B4B?logo=streamlit&logoColor=white)](https://ai-document-verification-system.streamlit.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github&logoColor=white)](https://github.com/Abhiram4004/ai-document-verification-system)
 
-[**View Source Code →**](https://github.com/Abhiram4004/ai-document-verification-system)
+**🚀 Live Demo:** https://ai-document-verification-system.streamlit.app/
+
+**💻 Source Code:** https://github.com/Abhiram4004/ai-document-verification-system
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![OCR Engine](https://img.shields.io/badge/OCR-Tesseract%205.4+-brightgreen.svg)](https://github.com/tesseract-ocr/tesseract)
