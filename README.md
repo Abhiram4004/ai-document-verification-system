@@ -1,5 +1,15 @@
 # AI Document Verification System
 
+> An AI-powered system for detecting potential document forgery using OCR, machine learning, and deep learning.
+
+## 🚀 Live Demo
+
+[**Try the Live Demo →**](YOUR_STREAMLIT_URL)
+
+## 📂 GitHub Repository
+
+[**View Source Code →**](https://github.com/Abhiram4004/ai-document-verification-system)
+
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![OCR Engine](https://img.shields.io/badge/OCR-Tesseract%205.4+-brightgreen.svg)](https://github.com/tesseract-ocr/tesseract)
 [![Deep Learning](https://img.shields.io/badge/PyTorch-2.5.1+-ee4c2c.svg)](https://pytorch.org/)
