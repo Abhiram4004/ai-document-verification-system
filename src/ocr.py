@@ -4,6 +4,7 @@ import json
 import logging
 import os
 import re
+import shutil
 import string
 from pathlib import Path
 from typing import Any, Dict, Optional, Tuple, Union
@@ -39,7 +40,9 @@ def is_tesseract_available(tesseract_cmd: Optional[str] = None) -> bool:
     if pytesseract is None:
         return False
     cmd = tesseract_cmd or get_configured_tesseract_cmd()
-    if not cmd or not Path(cmd).is_file():
+    if not cmd:
+        return False
+    if not Path(cmd).is_file() and not shutil.which(cmd):
         return False
     try:
         pytesseract.pytesseract.tesseract_cmd = cmd
@@ -55,12 +58,14 @@ def ensure_tesseract_available(tesseract_cmd: Optional[str] = None) -> str:
     if not cmd or not is_tesseract_available(cmd):
         raise TesseractNotFoundError(
             "Tesseract OCR executable not found or not functional.\n"
-            "Tesseract is a mandatory requirement for the training and inference pipeline.\n"
-            "To install on Windows:\n"
+            "Tesseract is required for document text extraction and verification.\n"
+            "On Streamlit Community Cloud / Linux:\n"
+            "  Ensure 'packages.txt' is committed in the repository root containing:\n"
+            "    tesseract-ocr\n"
+            "    tesseract-ocr-eng\n"
+            "On Windows:\n"
             "  1. Run: winget install UB-Mannheim.TesseractOCR\n"
-            "  2. Or download installer from: https://github.com/UB-Mannheim/tesseract/wiki\n"
-            "  3. Configure TESSERACT_CMD in your .env file, e.g.:\n"
-            r"     TESSERACT_CMD=C:\Program Files\Tesseract-OCR\tesseract.exe"
+            "  2. Or set environment variable TESSERACT_CMD pointing to tesseract.exe."
         )
     return cmd
 

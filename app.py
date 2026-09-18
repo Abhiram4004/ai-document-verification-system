@@ -160,6 +160,7 @@ def render_app():
             st.success("Tesseract OCR: Ready")
         else:
             st.error("Tesseract OCR: Not Detected")
+            st.caption("On Streamlit Community Cloud: ensure `packages.txt` is present with `tesseract-ocr`. Locally: set `TESSERACT_CMD`.")
 
         st.divider()
         st.subheader("Dataset Info")

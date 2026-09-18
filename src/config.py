@@ -38,10 +38,13 @@ def get_tesseract_cmd() -> str | None:
     # Check PATH
     which_cmd = shutil.which("tesseract")
     if which_cmd:
-        return which_cmd
+        return str(Path(which_cmd).resolve())
 
-    # Check common Windows installation paths
+    # Check common system paths (Linux / Streamlit Community Cloud and Windows)
     candidate_paths = [
+        "/usr/bin/tesseract",
+        "/usr/local/bin/tesseract",
+        "/usr/bin/tesseract-ocr",
         r"C:\Program Files\Tesseract-OCR\tesseract.exe",
         r"C:\Program Files (x86)\Tesseract-OCR\tesseract.exe",
         os.path.expanduser(r"~\AppData\Local\Tesseract-OCR\tesseract.exe"),
